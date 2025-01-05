@@ -1,0 +1,38 @@
+/* Reset styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout styles */
+.dashboard-layout {
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dashboard-content {
+  padding: 20px 50px;
+  background: #f0f2f5;
+}
+
+.ant-card {
+  border-radius: 8px;
+}
+
+.ant-card img {
+  border-radius: 8px 8px 0 0;
+}
