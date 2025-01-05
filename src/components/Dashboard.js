@@ -12,7 +12,6 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
-  // Replace with your API key from NewsAPI.org
   const API_KEY = "73735d837eb34b2e9cf9126176c497df";
   const API_URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 
@@ -94,7 +93,7 @@ const Dashboard = () => {
         )}
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        News Dashboard ©2025 Created by YourName
+        News Dashboard ©2025 Created by Priyanshi
       </Footer>
     </Layout>
   );
