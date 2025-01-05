@@ -6,6 +6,7 @@ import Dashboard from "../components/Dashboard";
 import Auth from "../auth/auth";
 
 const Index = () => {
+  // Routes
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/login" />} />

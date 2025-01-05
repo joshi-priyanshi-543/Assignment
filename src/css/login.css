@@ -1,4 +1,4 @@
-/* Reset styles */
+
 body,
 html {
   margin: 0;
@@ -9,7 +9,7 @@ html {
   background: #f0f2f5;
 }
 
-/* App container */
+
 .app {
   height: 100vh;
   display: flex;
@@ -17,7 +17,7 @@ html {
   align-items: center;
 }
 
-/* Card styles */
+
 .card {
   width: 100%;
   max-width: 400px;

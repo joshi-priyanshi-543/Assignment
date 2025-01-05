@@ -1,4 +1,4 @@
-/* Reset styles */
+
 body,
 html {
   margin: 0;
@@ -7,7 +7,7 @@ html {
   font-family: Arial, sans-serif;
 }
 
-/* Layout styles */
+
 .dashboard-layout {
   min-height: 100vh;
 }
